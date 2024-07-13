@@ -31,12 +31,12 @@ async function getTicketDetails() {
     const data = await client.data.get("ticket");
     const { ticket: { id, created_at, updated_at, status_type, priority, description } } = data;
 
-    // Convert timestamp strings (created_at and updated_at) to Date objects
+    
     const createdAtFormatted = new Date(created_at).toLocaleString();
     const updatedAtFormatted = new Date(updated_at).toLocaleString();
     const descriptionFormatted = description ? description.trim() : 'No description';
 
-    // Update the HTML content to display formatted ticket details
+    
     document.getElementById('tickets').innerHTML = `
       ID: ${id}<br>
       Description: ${descriptionFormatted}<br>
