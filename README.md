@@ -1,3 +1,12 @@
+## Output ScreenShots
+![image](https://github.com/user-attachments/assets/fca2a65f-0f9c-4641-ae2c-0f72d7d59263)
+![image](https://github.com/user-attachments/assets/e42c1d14-d1fe-48c7-8307-e80e9e80e3b5)
+![image](https://github.com/user-attachments/assets/6e5af609-4189-479f-8bb3-4a12e1bb4bcb)
+![image](https://github.com/user-attachments/assets/962259c3-a838-426b-bd98-52f7f0bd45d3)
+
+
+
+
 ## Your First App
 
 This app displays the name of the requester of a freshdesk ticket in the ticket_sidebar placeholder
